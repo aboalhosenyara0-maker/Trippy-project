@@ -1,0 +1,26 @@
+footer{
+    background-color: #222;
+    color: #fff;
+    padding: 4rem 6rem;
+
+    .Trippy{
+        display: flex;
+        justify-content:space-between;
+    }
+    .social{
+        display: flex;
+        gap: 20px;
+        cursor: pointer;
+        
+        .facbook{
+            width: 35px;
+            height: 35px;
+            background-color: #fff;
+            border-radius: 4px;
+            &:hover{
+                background-color: #01959a;
+            }
+        }
+
+    }
+}

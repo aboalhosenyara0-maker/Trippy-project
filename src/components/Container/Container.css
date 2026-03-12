@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 4.5rem;
+
+    /* هون مالازم نحطا ك أبن*/
+    &.reverse {
+        flex-direction: row-reverse;
+    }
+
+    .text {
+        width: 49%;
+
+        h2{
+            padding-bottom: 1rem;
+        }
+        p{
+            box-sizing: border-box;
+            padding: 0;
+        }
+    }
+    .imags{
+        display: flex;
+        justify-content: space-between;
+        width: 49%;
+
+        img{
+            width: 49%;
+            height: 422px;
+            border-radius: 8px;
+            object-fit: cover;
+
+            &:last-child {
+                transform: translateY(-16px);
+            }
+            
+        }
+    }
+}
