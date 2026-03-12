@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div>
         <Hero
-        bgImage="/assets/img/About.jpg"
+        bgImage="/Trippy-project/assets/img/About.jpg"
         title="About"
         />
         <Section>

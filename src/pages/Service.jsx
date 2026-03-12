@@ -8,7 +8,7 @@ const Service = () => {
     return (
         <div>
         <Hero
-        bgImage="/assets/img/pares.jpg"
+        bgImage="/Trippy-project/assets/img/pares.jpg"
         title="Services"
         />
         <Section>

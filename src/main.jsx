@@ -31,7 +31,10 @@ const routes = createBrowserRouter([
       }
     ]
   }
-])
+],{
+  basename : "/Trippy-project"
+}
+)
 
 
 

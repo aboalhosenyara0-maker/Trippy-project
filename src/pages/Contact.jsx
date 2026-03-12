@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div>
         <Hero
-        bgImage="/assets/img/4.jpg"
+        bgImage="/Trippy-project/assets/img/4.jpg"
         title="Contact"
         />
         <Section>
